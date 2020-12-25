@@ -3,6 +3,7 @@
   <display-name>DemoJsJq</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
+    <!-- just trial -->
    <!-- <welcome-file>index.xhtml</welcome-file> -->
   </welcome-file-list>
 </web-app>
