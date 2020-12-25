@@ -9,6 +9,28 @@
 	$(document).ready(function(){
 		//$("#nameTxt").val("welcome all");
 		console.log("Document is ready !!");
+		
+		//trial event handling
+		$("#nameTxt").click(function(){
+			//$(this).val("welcome all").css("color","red").css("font-size","10px");
+			$(this).val("welcome all").css({"color":"red","font-size":"10px"});
+		});
+		
+		$("input:button").click().css({"color":"red","font-size":"10px"});
+		
+		
+		$("p").on({
+			
+			click : function(){
+				alert("entered");
+			},
+			
+			mouseenter : function(){
+				$(this).css({"color":"red", "font-size":"10px"});
+			}
+		});
+		
+		
 	
 	});
 
@@ -42,6 +64,8 @@ List of Documents :
 	<li>Light bill</li>
 </ol>
 <br/><br/>
+
+<p>this is paragraph </p>
 
 </form>
 
